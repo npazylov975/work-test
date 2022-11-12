@@ -12,4 +12,33 @@ a {
   margin: 0 auto;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+#header {
+  padding: 20px 0;
+  background: #FFFFFF;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+}
+#header .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#header .header--title a {
+  font-weight: 400;
+  font-size: 18px;
+  color: rgba(31, 46, 53, 0.8);
+  padding: 0 25px;
+}
+#header .header--title a:hover {
+  border-bottom: 2px solid black;
+}
+#header .header--logo ion-icon {
+  color: rgba(31, 46, 53, 0.8);
+  font-size: 20px;
+  padding: 0 10px;
+}
+
 /*# sourceMappingURL=style.css.map */
