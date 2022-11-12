@@ -71,3 +71,72 @@ a {
   }
 }
 
+body {
+  font-family: 'Roboto', sans-serif;
+}
+#header{
+  padding: 20px 0;
+  background: #FFFFFF;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+  .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &--title{
+      a{
+        font-weight: 400;
+        font-size: 18px;
+        color: rgba(31, 46, 53, 0.8);
+        padding: 0 25px;
+      }
+      a:hover{
+        border-bottom: 2px solid black;
+      }
+    }
+    &--logo{
+      ion-icon{
+        color: rgba(31, 46, 53, 0.8);
+        font-size: 20px;
+        padding: 0 10px;
+  font-family: 'Roboto',sans-serif;
+}
+
+#welcome {
+  .welcome {
+    display: flex;
+    align-items: center;
+    &--text {
+      margin: 0 10%;
+      h1 {
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 133.69%;
+        color: #1F2E35;
+        padding-bottom: 10px;
+      }
+
+      span {
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 133.69%;
+        color: #EE4248;
+      }
+
+      p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+        color: #30444E;
+      }
+
+      ul {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+        color: #30444E;
+        padding: 15px 0;
+      }
+    }
+  }
+}
+
