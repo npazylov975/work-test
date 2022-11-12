@@ -12,3 +12,46 @@ a {
   margin: 0 auto;
 }
 
+body {
+  font-family: 'Roboto',sans-serif;
+}
+
+#welcome {
+  .welcome {
+    display: flex;
+    align-items: center;
+    &--text {
+      margin: 0 10%;
+      h1 {
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 133.69%;
+        color: #1F2E35;
+        padding-bottom: 10px;
+      }
+
+      span {
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 133.69%;
+        color: #EE4248;
+      }
+
+      p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+        color: #30444E;
+      }
+
+      ul {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+        color: #30444E;
+        padding: 15px 0;
+      }
+    }
+  }
+}
+
