@@ -12,6 +12,58 @@ a {
   margin: 0 auto;
 }
 
+#contact {
+  padding: 40px 0;
+}
+#contact .contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 600px;
+}
+#contact .contact--lib h1 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #263238;
+}
+#contact .contact--lib p {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 149.19%;
+  color: #263238;
+}
+#contact .contact--nav h1 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: black;
+  padding: 15px 0;
+}
+#contact .contact--nav p {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 149.19%;
+  color: #263238;
+}
+
+#footer .footer {
+  background: #EE4248;
+  max-width: 1500px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#footer .footer--lib {
+  text-align: center;
+}
+#footer .footer--lib h1 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -39,7 +91,7 @@ body {
   color: rgba(31, 46, 53, 0.8);
   font-size: 20px;
   padding: 0 10px;
-=======
+
 #welcome .welcome {
   display: flex;
   align-items: center;
